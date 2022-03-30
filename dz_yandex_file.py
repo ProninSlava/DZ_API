@@ -2,7 +2,7 @@ from pprint import pprint
 import requests
 
 URL = 'https://cloud-api.yandex.net/v1/disk/resources'
-TOKEN = 'AQAAAABe-PqUAADLWzMn3xXq0kNEoJoNHAbCHgY'
+TOKEN = ''
 headers = {'Content-Type': 'application/json', 'Authorization': f'OAuth {TOKEN}'}
 
 def upload_file(loadfile, savefile, replace=False):
