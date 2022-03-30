@@ -2,12 +2,6 @@ from pprint import pprint
 import requests
 import os
 
-# FILE_NAME = 'netology/yandex.txt'
-# FILE_DZ8_DIR = 'DZ8'
-# BASE_PATH = os.getcwd()
-# file_path = os.path.join(BASE_PATH, FILE_DZ8_DIR, FILE_NAME)
-# disk_file_path = 'https://disk.yandex.ru/client/disk/netology/yandex.txt'
-
 class YaUploader:
     def __init__(self, token: str):
         self.token = token
