@@ -10,7 +10,6 @@ def heroes_intelligence():
         url_name = url + name
         req = requests.get(url_name).json()
         for i in req['results']:
-            pprint(i)
             intelligence_heroes = i['powerstats']['intelligence']
             if name not in dict_heroes_intelligence:
                 dict_heroes_intelligence[name] = int(intelligence_heroes)
