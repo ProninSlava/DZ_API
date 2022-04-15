@@ -33,7 +33,7 @@ class YaUploader:
 
 if __name__ == '__main__':
 
-    token = 'AQAAAABe-PqUAADLWzMn3xXq0kNEoJoNHAbCHgY'
+    token = ''
     uploader = YaUploader(token)
     result = uploader.upload_file_disk('/netology/yandex.txt', 'yandex.txt')
 
